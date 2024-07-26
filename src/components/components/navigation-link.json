@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_components_navigation_links",
+  "info": {
+    "displayName": "navigation link",
+    "icon": "code",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    }
+  }
+}

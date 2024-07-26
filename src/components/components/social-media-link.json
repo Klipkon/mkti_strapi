@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_components_social_media_links",
+  "info": {
+    "displayName": "social media link",
+    "icon": "earth",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    }
+  }
+}

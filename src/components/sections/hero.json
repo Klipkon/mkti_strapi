@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_sections_heroes",
+  "info": {
+    "displayName": "hero",
+    "icon": "strikeThrough"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.button"
+    }
+  }
+}
