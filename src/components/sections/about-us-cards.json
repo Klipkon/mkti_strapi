@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_about_us_cards",
+  "info": {
+    "displayName": "about us cards",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "cards": {
+      "displayName": "Card",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.card"
+    }
+  }
+}

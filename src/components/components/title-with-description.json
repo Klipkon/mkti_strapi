@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_components_title_with_descriptions",
+  "info": {
+    "displayName": "title with description",
+    "icon": "strikeThrough"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

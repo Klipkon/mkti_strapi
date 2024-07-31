@@ -15,7 +15,13 @@
     "components": {
       "type": "dynamiczone",
       "components": [
-        "sections.hero"
+        "sections.hero",
+        "sections.about-us",
+        "sections.with-image",
+        "sections.blog",
+        "sections.contact",
+        "components.title-with-description",
+        "sections.about-us-cards"
       ]
     },
     "slug": {
