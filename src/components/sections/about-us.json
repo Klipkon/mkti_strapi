@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_sections_about_uses",
+  "info": {
+    "displayName": "about us",
+    "icon": "user",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "chips": {
+      "displayName": "chip",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.chip"
+    },
+    "highlightedWords": {
+      "type": "string"
+    }
+  }
+}

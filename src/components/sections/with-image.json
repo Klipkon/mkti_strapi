@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_sections_with_images",
+  "info": {
+    "displayName": "with image",
+    "icon": "picture",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleWithDescription": {
+      "displayName": "title with description",
+      "type": "component",
+      "repeatable": false,
+      "component": "components.title-with-description"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.button"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_components_chips",
+  "info": {
+    "displayName": "chip",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}

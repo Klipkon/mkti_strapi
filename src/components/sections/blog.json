@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_sections_blogs",
+  "info": {
+    "displayName": "Blog",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

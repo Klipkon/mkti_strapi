@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_components_forms",
+  "info": {
+    "displayName": "form",
+    "icon": "envelop",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "emailPlaceholder": {
+      "type": "string"
+    },
+    "messagePlaceholder": {
+      "type": "string"
+    },
+    "checkboxLabel": {
+      "type": "string"
+    },
+    "messageLabel": {
+      "type": "string"
+    },
+    "emailLabel": {
+      "type": "string"
+    }
+  }
+}

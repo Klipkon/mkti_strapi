@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_components_buttons",
+  "info": {
+    "displayName": "button",
+    "icon": "bold",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "string",
+      "required": true
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "default",
+        "secondary",
+        "ghost"
+      ],
+      "default": "default"
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "default",
+        "sm",
+        "icon"
+      ],
+      "default": "default"
+    },
+    "href": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}
