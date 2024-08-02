@@ -160,6 +160,17 @@ export interface ComponentsNavigationLink extends Schema.Component {
   };
 }
 
+export interface ComponentsMarkdown extends Schema.Component {
+  collectionName: 'components_components_markdowns';
+  info: {
+    displayName: 'markdown';
+    icon: 'strikeThrough';
+  };
+  attributes: {
+    content: Attribute.RichText;
+  };
+}
+
 export interface ComponentsForm extends Schema.Component {
   collectionName: 'components_components_forms';
   info: {
@@ -245,6 +256,7 @@ declare module '@strapi/types' {
       'components.title-with-description': ComponentsTitleWithDescription;
       'components.social-media-link': ComponentsSocialMediaLink;
       'components.navigation-link': ComponentsNavigationLink;
+      'components.markdown': ComponentsMarkdown;
       'components.form': ComponentsForm;
       'components.chip': ComponentsChip;
       'components.card': ComponentsCard;

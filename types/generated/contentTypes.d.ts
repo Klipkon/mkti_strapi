@@ -986,7 +986,8 @@ export interface ApiPagePage extends Schema.CollectionType {
         'sections.blog',
         'sections.contact',
         'components.title-with-description',
-        'sections.about-us-cards'
+        'sections.about-us-cards',
+        'components.markdown'
       ]
     >;
     slug: Attribute.String & Attribute.Required;

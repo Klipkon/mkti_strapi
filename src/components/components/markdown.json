@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_components_markdowns",
+  "info": {
+    "displayName": "markdown",
+    "icon": "strikeThrough"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
