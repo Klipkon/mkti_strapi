@@ -1,22 +1,26 @@
 {
   "name": "strapi",
-  "private": true,
   "version": "0.1.0",
+  "private": true,
   "description": "A Strapi application",
+  "license": "MIT",
+  "author": {
+    "name": "A Strapi developer"
+  },
   "scripts": {
+    "build": "strapi build",
+    "deploy": "strapi deploy",
     "develop": "strapi develop",
     "start": "strapi start",
-    "build": "strapi build",
-    "strapi": "strapi",
-    "deploy": "strapi deploy"
+    "strapi": "strapi"
   },
   "dependencies": {
     "@ckeditor/strapi-plugin-ckeditor": "^0.0.13",
-    "@strapi/plugin-cloud": "4.25.4",
-    "@strapi/plugin-i18n": "4.25.4",
+    "@strapi/plugin-cloud": "4.25.6",
+    "@strapi/plugin-i18n": "4.25.6",
     "@strapi/plugin-seo": "^1.9.9",
-    "@strapi/plugin-users-permissions": "4.25.4",
-    "@strapi/strapi": "4.25.4",
+    "@strapi/plugin-users-permissions": "4.25.6",
+    "@strapi/strapi": "4.25.6",
     "googleapis": "^140.0.1",
     "mysql": "2.18.1",
     "nodemailer": "^6.9.14",
@@ -27,18 +31,14 @@
     "styled-components": "5.3.3",
     "zod": "^3.23.8"
   },
-  "author": {
-    "name": "A Strapi developer"
-  },
-  "strapi": {
-    "uuid": "f9028e23-3d84-425d-81f6-b74b5fc09760"
+  "devDependencies": {
+    "@types/nodemailer": "^6.4.15"
   },
   "engines": {
     "node": ">=18.0.0 <=20.x.x",
     "npm": ">=6.0.0"
   },
-  "license": "MIT",
-  "devDependencies": {
-    "@types/nodemailer": "^6.4.15"
+  "strapi": {
+    "uuid": "f9028e23-3d84-425d-81f6-b74b5fc09760"
   }
 }
