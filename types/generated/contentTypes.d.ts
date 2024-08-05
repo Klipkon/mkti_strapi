@@ -1033,6 +1033,7 @@ export interface ApiProductProduct extends Schema.CollectionType {
           preset: 'rich';
         }
       >;
+    files: Attribute.Media<'files', true>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
