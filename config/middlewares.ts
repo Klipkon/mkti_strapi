@@ -10,6 +10,7 @@ export default [
         "http://localhost:4321",
         "https://mtki.pl",
         "http://localhost:1337",
+        "https://strapi.mkti.pl",
       ],
     },
   },
