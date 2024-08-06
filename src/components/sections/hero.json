@@ -2,24 +2,31 @@
   "collectionName": "components_sections_heroes",
   "info": {
     "displayName": "hero",
-    "icon": "strikeThrough"
+    "icon": "strikeThrough",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "image": {
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "buttons": {
       "type": "component",
       "repeatable": true,
       "component": "components.button"
+    },
+    "titleWithDescription": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.title-with-description"
     }
   }
 }

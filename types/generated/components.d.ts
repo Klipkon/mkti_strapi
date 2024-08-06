@@ -66,10 +66,12 @@ export interface SectionsHero extends Schema.Component {
   info: {
     displayName: 'hero';
     icon: 'strikeThrough';
+    description: '';
   };
   attributes: {
-    image: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    images: Attribute.Media<'images' | 'files' | 'videos' | 'audios', true>;
     buttons: Attribute.Component<'components.button', true>;
+    titleWithDescription: Attribute.Component<'components.title-with-description'>;
   };
 }
 
