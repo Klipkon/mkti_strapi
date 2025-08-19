@@ -15,28 +15,23 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@ckeditor/strapi-plugin-ckeditor": "^0.0.13",
-    "@strapi/plugin-cloud": "4.25.6",
-    "@strapi/plugin-i18n": "4.25.6",
-    "@strapi/plugin-seo": "^1.9.9",
-    "@strapi/plugin-users-permissions": "4.25.6",
-    "@strapi/strapi": "4.25.6",
+    "@ckeditor/strapi-plugin-ckeditor": "^1.1.1",
+    "@strapi/plugin-cloud": "5.22.0",
+    "@strapi/plugin-seo": "^2.0.8",
+    "@strapi/plugin-users-permissions": "5.22.0",
+    "@strapi/strapi": "5.22.0",
     "googleapis": "^140.0.1",
     "mysql2": "^3.14.3",
     "nodemailer": "^6.9.14",
     "qs": "^6.12.3",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-router-dom": "5.3.4",
-    "styled-components": "5.3.3",
+    "react-router-dom": "^6.0.0",
+    "styled-components": "^6.0.0",
     "zod": "^3.23.8"
   },
   "devDependencies": {
     "@types/nodemailer": "^6.4.15"
-  },
-  "engines": {
-    "node": ">=18.0.0 <=20.x.x",
-    "npm": ">=6.0.0"
   },
   "strapi": {
     "uuid": "f9028e23-3d84-425d-81f6-b74b5fc09760"
