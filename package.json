@@ -22,7 +22,7 @@
     "@strapi/plugin-users-permissions": "4.25.6",
     "@strapi/strapi": "4.25.6",
     "googleapis": "^140.0.1",
-    "mysql": "2.18.1",
+    "mysql2": "^3.14.3",
     "nodemailer": "^6.9.14",
     "qs": "^6.12.3",
     "react": "^18.0.0",
